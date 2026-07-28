@@ -23,6 +23,12 @@ class Person:
         # (cls 자리에 Person이 자동으로 들어옴)
         cls.population += 1
 
+        # 사실.. def incresase_population 안해도 됨.
+        # 위에서 population += 1 해도 같으나, 권장하지 않음
+        
+
+
+
 
 # =============================================================
 # 인스턴스를 2개 생성 => 생성될 때마다 __init__ 안에서

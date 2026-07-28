@@ -17,7 +17,10 @@ class Singer:
         return 'lalala'
 
 
-pass
+iu = Singer()
+print(iu.sing())
+print(type(iu))
+
 
 
 # =============================================================

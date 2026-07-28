@@ -47,4 +47,5 @@ class Person:
         print(f'안녕하세요, {self.name}입니다. 나이는 {self.age}살입니다.')
 
 
-pass
+alice = Person('Alice', 25)
+alice.introduce()
